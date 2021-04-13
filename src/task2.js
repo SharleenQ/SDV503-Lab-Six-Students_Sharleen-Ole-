@@ -8,14 +8,14 @@
 // Note: The original order must be maintained.
 
 // intergers to stings string to array.
+
+let arr = []
 function filter (arr){
 for (i = 0; i < arr.length;){
-    if (typeof arr[i] == "string"){
+    if (typeof arr[i] == 'string','Cat'){
       arr.pop()  
     }else{
         i++;
     }
 }
-console.log(arr)
-}
-console.log(filter([1, 2, "aasf", "1", "123", 123]))
+console.log(arr)} filter(arr)
