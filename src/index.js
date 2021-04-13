@@ -4,17 +4,11 @@
 // Ex:  addOddNumbers(5)  -> 9  // 1 + 3 + 5 = 9
 // Ex: addOddnumbers(13) -> 49 // 1 + 3 + 5 + 7 + 9 + 11 + 13 = 49
 
-// function addOddNumbers() {
-//     i = 0;
-//     while [i > 0 ] {count += i; i += 2; } }
-
-//     console.log(addOddNumbers())
-
-function value(x){
-    let i = 0;
-    if (i > 0; i ++)
- i%2 ===0
- value.push(parseInt(x))
- return value
-}
-console.log(value())
+function oddSum(num) {
+    let x = 0 //the variable x is set to 0
+        for (i = 1; i < num; i += 2){ // we created this 4 loop, and it starts from 1, each time it loops ,we add 2 to i. (as long as i is less that the input number it will keep looping)
+            x += i // we add the value of i to the variable x  
+        }
+        return x // this is the output of the whole function
+    }
+    console.log(oddSum(10))
