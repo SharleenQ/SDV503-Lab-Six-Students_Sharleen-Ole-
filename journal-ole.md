@@ -1,6 +1,6 @@
 Task1: We researched loops and arrays and put some code snips together and tried to get some answers.
 But it didn't work as intended so i researched moore about oddsum.
-At first i used:
+At first i used this as a reference from https://gist.github.com/tacheshun/5587510:
 function oddSum(n) {
     var sumSoFar = 0;
     
