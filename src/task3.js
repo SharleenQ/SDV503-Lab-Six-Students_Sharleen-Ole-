@@ -57,12 +57,3 @@ console.log(
 
 
 )
-
-
-function fancyCode(obj) {
-    return obj.likes - obj.dislikes
-}
-
-console.log(fancyCode({ likes: 13, dislikes: 0 }))
-console.log(fancyCode({ likes: 2, dislikes: 23 }))
-console.log(fancyCode({ likes: 100, dislikes: 100 }))
