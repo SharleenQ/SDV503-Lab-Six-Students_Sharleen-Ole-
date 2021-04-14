@@ -5,9 +5,9 @@
 // Ex: addOddnumbers(13) -> 49 // 1 + 3 + 5 + 7 + 9 + 11 + 13 = 49
 
 function oddSum(num) {
-    let x = 0 //the variable x is set to 0
+    let x = [] //the variable x is set to 0
         for (i = 1; i < num; i += 2){ // we created this 4 loop, and it starts from 1, each time it loops ,we add 2 to i. (as long as i is less that the input number it will keep looping)
-            x += i // we add the value of i to the variable x  
+            x.push += i // we add the value of i to the variable x  
         }
         return x // this is the output of the whole function
     }
