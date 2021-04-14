@@ -7,15 +7,22 @@
 // Note: Numbers in the array should not repeat.
 // Note: The original order must be maintained.
 
-// intergers to stings string to array.
+// integers to stings string to array.
 
-let arr = []
-function filter (arr){
-for (i = 0; i < arr.length;){
-    if (typeof arr[i] == 'string','Cat'){
-      arr.pop()  
-    }else{
-        i++;
-    }
+
+function filter(arr) {
+  let outputArr = []
+  for (i = 0; i < arr.length; i++) {  // this loops through the array untill its equal.
+
+    if (typeof arr[i] !== 'string') {
+      outputArr.push(arr[i])
+    } 
+  }
+  return (outputArr)
 }
-console.log(arr)} filter(arr)
+console.log(filter([1, 2, '0', '1', '12', 123]));
+   
+
+    // functionName();
+    // functionName('text');
+    // functionName(['text',1,4])
