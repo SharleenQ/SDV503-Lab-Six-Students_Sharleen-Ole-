@@ -1,11 +1,35 @@
 ### Sharleen's Journal
 
 ## Task ones:
+i wrote about task 1 last.. ALI... omggggg this was so hard !!!!
 
-
-
+i honestly pulled ,y hair out and we spent almost 5 hrs on this one task.. YES, i need to try understand and study.. but also i felt like the research was really off topic i didn't know how to read / problem solve.
+I struggled allot.
+//But after you helped us with writing out the problem then in the lunch room you explained it in detail your enthusiasm made me want to try harder. i don't like to upset/disappoint you or my team mates.
 
 Resources:
+your piece of art work
+ week 5 code snippet: 
+ Tuesday 23rd Learning about loops.
+
+```for(i= 0; i <= 5; i++) {    console.log('this is a loop') let arr = [1,2,3,4,5,6,7]
+console.log(arr.length)
+```
+
+```for (let i = 0;; i++) {  console.log("loop, i = " + i); if (i > 1)  break;};
+```
+
+```let counter =0;
+function inc() { counter++; } for (let i = 0; i <10; i++, inc()); console.log(counter); 
+```
+ 
+ and then these links.
+ https://developer.mozilla.org/en-US/docs/Glossary/loop
+ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+ https://developer.mozilla.org/en-US/docs/Web/CSS/length
+ 
+
 
 ## Task two: 
 Helped by jordan-
@@ -13,7 +37,6 @@ Helped by jordan-
  we used 10 is our maximum in the loop and we played around to change the output to be odd numbers or even.  
 
  was really nie to understand the code we are creating however when i look at my completed code i still don't understand how to decide from the other loops what was suitable fo this result. as time goes on and wee move on to the next task. i look forward to what i will use from this task and learn for the next.
-
 
 Resources: 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
