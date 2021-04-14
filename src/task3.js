@@ -15,3 +15,54 @@
 
 // Note: the function body want something to operate on , which is going to be the properties of the object "counts" , so you access t 
 
+function getCount(obj) {
+    let likes = obj.likes
+    //console.log(likes) //44
+    let dislikes = obj.dislikes
+
+    likes -= dislikes
+    //console.log(likes)  //23
+    return likes
+}
+
+console.log(
+    getCount({
+        likes: 44,
+
+        dislikes: 21
+    })
+)
+
+console.log(
+    getCount({
+        likes: 100,
+        dislikes: 100
+    })
+
+)
+
+console.log(
+    getCount({
+        likes: 13,
+        dislikes: 0
+    })
+)
+
+console.log(
+    getCount({
+
+        likes: 2,
+        dislikes: 23
+    })
+
+
+)
+
+
+function fancyCode(obj) {
+    return obj.likes - obj.dislikes
+}
+
+console.log(fancyCode({ likes: 13, dislikes: 0 }))
+console.log(fancyCode({ likes: 2, dislikes: 23 }))
+console.log(fancyCode({ likes: 100, dislikes: 100 }))
