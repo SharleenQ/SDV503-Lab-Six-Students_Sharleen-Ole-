@@ -6,9 +6,9 @@
 
 function oddSum(num) {
     let x = [] //the variable x is set to 0
-        for (i = 1; i < num; i += 2){ // we created this 4 loop, and it starts from 1, each time it loops ,we add 2 to i. (as long as i is less that the input number it will keep looping)
-            x.push += i // we add the value of i to the variable x  
+        for(i=1; i < num; i += 2) { // we created this 4 loop, and it starts from 1, each time it loops ,we add 2 to i. (as long as i is less that the input number it will keep looping)
+            x.push(i) // we add the value of i to the variable x  
         }
-        return x // this is the output of the whole function
+        return x.toString()  // this is the output of the whole function
     }
     console.log(oddSum(10))
