@@ -10,6 +10,7 @@ I struggled allot.
 Resources:
 your piece of art work
  week 5 code snippet: 
+ 
  Tuesday 23rd Learning about loops.
 
 ```for(i= 0; i <= 5; i++) {    console.log('this is a loop') let arr = [1,2,3,4,5,6,7]
