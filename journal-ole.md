@@ -1,11 +1,8 @@
 ### Ole's Journal
 
 ## Task 1:
-task 1 was hard
-
-we spent about 5 hrs on this one task and the research was really off topic i didn't know how to read / problem solve.
-I personally struggled allot.
-after you helped us with writing out the problem then in the lunch room you explained it in detail i understood some things
+we spent have spent about 5 hrs doing research that was really off topic and got confused.
+Eventually we got help with the code snippet you gave us and writing out the problem then in the lunch room you explained it in detail.
 
 Resources:
 your piece of art work
@@ -32,10 +29,10 @@ function inc() { counter++; } for (let i = 0; i <10; i++, inc()); console.log(co
 
 
 ## Task 2: 
-We got help by jordan-
- for this task i couldn't start the functions and find the correct loop that wasn't the same as the one displayed on NDM. Jordan helped us changing ours to be a little more original.
- we used 10 is our maximum in the loop and we played around to change the output to be odd numbers or even.  
- As time goes on and we move on to the next task.
+At this point we got help by jordan-
+Jordan helped us changing our code to be a little more original.
+ we got 10 as our maximum in the loop and played around to change the output to be odd numbers or even.  
+ As time went on and we move on to the next task.
 Resources: 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
@@ -43,16 +40,12 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 ## Task 3:
 We got started with getting help
-
-and that is all we could think about, but as i read the three "Notes on the todo list and what the answer needs to included" i started to complete
-the code in my head. i was still off topic for a while, and went through my github saved branches and went through week 7 and found this code. it got me thinking we were going 
-to be using this code. Jordan mention "count" and thats when i went into count on 
-
+and started reading "Notes on the todo list and what the answer needs to included"i still off was off topic for a while, and searched through my github to find some useful code snippet. At some point Jordan mention "count".
 ```let object = {a: 1,b: 2, c: 3,};
     for (let key of Object.keys(object)) 
 
-we got lucky jordan was there for help he was explaining that we were needing to "count" the likes and dislikes. 
-we guessed the function would use the '+,- or even *' to find a answer but in this case it was '+=' or '-='.
+By pure luck jordan was there to help he explained that we needed to "count" the likes and dislikes. 
+The function wasn't going to use the '+,- or even *' to find a answer but '+=' or '-='.
 
 Resources:
 //developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
